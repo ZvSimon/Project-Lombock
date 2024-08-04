@@ -5,5 +5,5 @@ import guru.springframework.projectLombock.model.Beer;
 import java.util.UUID;
 
 public interface BeerService {
-    Beer getBeerById(UUID beerId);
+    Beer getBeerById(UUID id);
 }
